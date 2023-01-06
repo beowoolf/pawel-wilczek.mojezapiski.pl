@@ -1,0 +1,72 @@
+{
+  "name": "pawel-wilczek.mojezapiski.pl",
+  "version": "1.0.0",
+  "description": "Wizytówka internetowa Pawła Wilczka",
+  "author": "Paweł Wilczek",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:style": "stylelint \"**/*.{css,scss,sass,html,vue}\" --ignore-path .gitignore",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier",
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix",
+    "prepare": "husky install",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --cache",
+    "*.{css,scss,sass,html,vue}": "stylelint",
+    "*.**": "prettier --check --ignore-unknown"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.15.1",
+    "@nuxt/image": "^0.7.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/google-gtag": "^1.0.4",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "bootstrap-vue": "^2.23.1",
+    "cookie-universal-nuxt": "^2.2.2",
+    "core-js": "^3.27.1",
+    "nuxt": "^2.15.8",
+    "nuxt-jsonld": "v1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@nuxtjs/color-mode": "2",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/google-fonts": "^2.0.0",
+    "@nuxtjs/stylelint-module": "^4.1.0",
+    "@nuxtjs/module-test-utils": "^1.6.3",
+    "@vue/test-utils": "^1.3.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "husky": "^8.0.3",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "lint-staged": "^13.1.0",
+    "nuxt-compress": "^5.0.0",
+    "postcss-html": "^1.5.0",
+    "prettier": "^2.8.2",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^29.0.0",
+    "vue-jest": "^3.0.4"
+  }
+}
