@@ -38,7 +38,7 @@
     "bootstrap-vue": "^2.23.1",
     "cookie-universal-nuxt": "^2.2.2",
     "core-js": "^3.27.1",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.0.0",
     "nuxt-jsonld": "v1"
   },
   "devDependencies": {
