@@ -284,6 +284,7 @@ export default {
         'https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white',
         'https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white',
         '/api?username=beowoolf&show_icons=true&theme=gotham&count_private=true&locale=pl&cache_seconds=7200&include_all_commits=true',
+        '/api/top-langs/?username=beowoolf&langs_count=10&theme=gotham&card_width=467&locale=pl&cache_seconds=7200',
         '/_ipx/f_webp,s_502x483/pw.jpg',
       ],
     },

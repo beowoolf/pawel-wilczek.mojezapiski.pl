@@ -1,6 +1,6 @@
-# Pawel-Wilczek.MojeZapiski.pl
+# pawel-wilczek.mojezapiski.pl
 
-> Frontend strony Pawel-Wilczek.MojeZapiski.pl
+> Frontend strony pawel-wilczek.mojezapiski.pl
 
 ## Build Setup
 

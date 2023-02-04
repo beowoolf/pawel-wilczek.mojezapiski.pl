@@ -199,6 +199,14 @@
         class="img-fluid"
       />
     </p>
+    <p>
+      <img
+        alt="Najczęściej używane języki"
+        title="Najczęściej używane języki"
+        src="/api/top-langs/?username=beowoolf&langs_count=10&theme=gotham&card_width=467&locale=pl&cache_seconds=7200"
+        class="img-fluid"
+      />
+    </p>
     <!--ol>
       <li
         v-for="categoryAndLinks in categoriesAndLinks"
@@ -334,6 +342,11 @@ export default {
       rel: 'preload',
       as: 'image',
       href: `/api?username=beowoolf&show_icons=true&theme=gotham&count_private=true&locale=pl&cache_seconds=7200&include_all_commits=true`,
+    })
+    head.link.push({
+      rel: 'preload',
+      as: 'image',
+      href: `/api/top-langs/?username=beowoolf&langs_count=10&theme=gotham&card_width=467&locale=pl&cache_seconds=7200`,
     })
     return head
   },
