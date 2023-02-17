@@ -38,7 +38,7 @@
     "bootstrap-vue": "^2.23.1",
     "cookie-universal-nuxt": "^2.2.2",
     "nuxt": "^2.16.1",
-    "nuxt-jsonld": "^1.5.4"
+    "nuxt-jsonld": "^1.5.5"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
