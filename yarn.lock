@@ -9322,10 +9322,10 @@ nuxt-compress@^5.0.0:
   dependencies:
     compression-webpack-plugin "^6.1.1"
 
-nuxt-jsonld@^1.5.5:
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/nuxt-jsonld/-/nuxt-jsonld-1.5.5.tgz#2fcffae1a6e4fef611e3a39bd48c1e512f7bb1de"
-  integrity sha512-wN63nfErBgATZQ8H2FMV8kua1cnS6VLVpVCom+GQGQP++psvPAqJLQrxnmdS8NKVzm/fHZnv26REadlyatiB+Q==
+nuxt-jsonld@^1.5.6:
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/nuxt-jsonld/-/nuxt-jsonld-1.5.6.tgz#22943b67e7c34b297890871741734ed95963bc9c"
+  integrity sha512-XHxaqVsaiDnIr+7klAE9G5eAItHcV9UEFlstaucx6RRFZ3ziuFcY5+ptqnfWgYwLiMQio+Y4diHKrkFJNKFO2Q==
   dependencies:
     schema-dts "^1.0.0"
 
