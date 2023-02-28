@@ -12,4 +12,5 @@ export default function (ctx) {
     ].includes(fullPath)
   )
     ctx.redirect(statusCode, fullPath + '/')
+  if (fullPath === '/certyfikat_en-179.pdf') ctx.redirect(statusCode, '/ciss/')
 }
