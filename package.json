@@ -61,7 +61,7 @@
     "lint-staged": "^14.0.1",
     "nuxt-compress": "^5.0.0",
     "postcss-html": "^1.5.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.3",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-recommended-vue": "^1.5.0",
