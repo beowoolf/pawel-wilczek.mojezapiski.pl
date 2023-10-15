@@ -10084,12 +10084,13 @@ nuxt-compress@^5.0.0:
   dependencies:
     compression-webpack-plugin "^6.1.1"
 
-nuxt-jsonld@^1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/nuxt-jsonld/-/nuxt-jsonld-1.5.8.tgz#bc14a9261d7fba4df779f7f29f80214c43ebfb23"
-  integrity sha512-D+xYmegfxNtDH39W6Aa8B7swAfYvIF807BsDe5KtQNLk83YpYm+dqASSDVeVN6sZsrBNy5Qr/VqzB+z0M2InYQ==
+nuxt-jsonld@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/nuxt-jsonld/-/nuxt-jsonld-2.0.8.tgz#88381c2cbe683192dbd3b772ba5e2b7c56a01a35"
+  integrity sha512-EnrEdh8q5TKqrY1ZaIU9xe9iqHc0bj/QR5b8BEO2ckWXIR6rHV+XxWMfdHMgGbo6fzrZTLTtlWUG2q0L7q45HQ==
   dependencies:
-    schema-dts "^1.0.0"
+    pathe "^1.1.0"
+    schema-dts "^1.1.2"
 
 nuxt@^2.17.1:
   version "2.17.1"
@@ -10555,12 +10556,7 @@ pathe@^0.3.5:
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-0.3.9.tgz#4baff768f37f03e3d9341502865fb93116f65191"
   integrity sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==
 
-pathe@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.1.0.tgz#e2e13f6c62b31a3289af4ba19886c230f295ec03"
-  integrity sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==
-
-pathe@^1.1.1:
+pathe@^1.1.0, pathe@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.1.1.tgz#1dd31d382b974ba69809adc9a7a347e65d84829a"
   integrity sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==
@@ -12259,10 +12255,10 @@ saxes@^6.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-schema-dts@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-1.1.0.tgz#33227971076ef1daa33e56a3127a8aae030e81c9"
-  integrity sha512-vdmbs/5ycj4zyKpZIDqTcy+IZi4s7c38RVAYuDmRi7zgxUT8wRWPMLzg0jr7FjdVunYu9yZ00F3+XcZTTFcTOQ==
+schema-dts@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-1.1.2.tgz#82ccf71b5dcb80065a1cc5941888507a4ce1e44b"
+  integrity sha512-MpNwH0dZJHinVxk9bT8XUdjKTxMYrA5bLtrrGmFA6PTLwlOKnhi67XoRd6/ty+Djt6ZC0slR57qFhZDNMI6DhQ==
 
 schema-utils@^1.0.0:
   version "1.0.0"
