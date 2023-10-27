@@ -33,7 +33,7 @@ export default {
   color: #ebf4f1;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (width <= 767px) {
   .font-size-sticky-footer {
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
     font-weight: normal;
@@ -41,7 +41,7 @@ export default {
     text-align: center;
   }
 }
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .font-size-sticky-footer {
     font-family: Poppins, Arial, Verdana, Tahoma, sans-serif;
     font-weight: normal;
