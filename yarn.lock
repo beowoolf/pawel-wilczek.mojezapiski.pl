@@ -2730,13 +2730,13 @@
     pathe "^1.1.0"
     vite-plugin-eslint "^1.8.1"
 
-"@nuxtjs/google-fonts@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-3.1.0.tgz#0d8fd062637c3f5c6a59f2e48da5becd8ce0a1bd"
-  integrity sha512-4e6FacoTXefYNUzQkRqUBlB/uH/JTLYX2vDoOB6saUS4I81k2DNn8qQfUgiv5xc9nZyTOjYGqOHBJm8U4Ec4pQ==
+"@nuxtjs/google-fonts@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-3.1.1.tgz#be4f84a6b133b0d628e6fdf93e6dc75a2eed50ff"
+  integrity sha512-vlBUw2KroO20dmLuLm2kxlb+moaWdphlrXNpTlB6z85djFsaBZ4pmDJSUY63MxI/lnAdDrPbudtnO4ogFNoVqA==
   dependencies:
     "@nuxt/kit" "^3.8.2"
-    google-fonts-helper "^3.4.0"
+    google-fonts-helper "^3.4.1"
     pathe "^1.1.1"
 
 "@nuxtjs/google-gtag@^1.0.4":
@@ -7348,10 +7348,10 @@ globjoin@^0.1.4:
   resolved "https://registry.yarnpkg.com/globjoin/-/globjoin-0.1.4.tgz#2f4494ac8919e3767c5cbb691e9f463324285d43"
   integrity sha512-xYfnw62CKG8nLkZBfWbhWwDw02CHty86jfPcc2cr3ZfeuK9ysoVPPEUxf21bAD/rWAgk52SuBrLJlefNy8mvFg==
 
-google-fonts-helper@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/google-fonts-helper/-/google-fonts-helper-3.4.0.tgz#98369c2d2fdea18237873e6372aca19b6a9495aa"
-  integrity sha512-WlSzFb7AnsTo1dSUL/A070fiQFbr89bw82u4FOyuQeigyfBaPLP4KP8qGfOMRWcb+IRowQtEwIwS4sEA2BzGFw==
+google-fonts-helper@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/google-fonts-helper/-/google-fonts-helper-3.4.1.tgz#9670494011945347e5694ee8169c628c10a6685b"
+  integrity sha512-unq9c1NF771916DrVR2MTpMJ5iHiMSjMBApErjhWT1FZIE+7x+Qik+w6cYi5jw/KtHELz+tyGAKgQetTU9wrlA==
   dependencies:
     deepmerge "^4.3.1"
     hookable "^5.5.3"
