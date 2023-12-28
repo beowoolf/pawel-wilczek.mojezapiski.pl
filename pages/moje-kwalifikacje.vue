@@ -260,6 +260,12 @@ export default {
                 i: '/akademiadotnet/szkolahtmlcss/9662ACC2-0DB9-4198-82D9-08D88CA465D7',
                 p: false,
               },
+              {
+                c: 'Szkoła Blazora',
+                d: '2023-12-28',
+                i: '/akademiadotnet/szkolablazora/B17FF3B5-994C-49BD-99A5-D1C7D6BE5EF8',
+                p: false,
+              },
             ],
           },
           {

@@ -255,7 +255,7 @@ export default {
           name: 'LinkedIn',
         },
         {
-          link: 'https://www.instagram.com/developerwolf/?hl=pl',
+          link: 'https://www.instagram.com/spring.java.nuxt.js.developer/?hl=pl',
           name: 'Instagram',
         },
         {
