@@ -17,7 +17,8 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix",
     "prepare": "husky install",
     "test": "jest",
-    "ci": "yarn && yarn lint && yarn test && yarn build -m -t"
+    "ci:basic": "yarn && yarn lint && yarn test",
+    "ci": "yarn ci:basic && yarn build -m -t"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint --cache",
