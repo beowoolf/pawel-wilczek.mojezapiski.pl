@@ -285,6 +285,12 @@ export default {
             name: 'Videopoint',
             documents: [
               {
+                c: 'Vue.js. Kurs video. Podstawy pracy z frameworkiem',
+                d: '2023-12-30',
+                i: '067caf5b14476aa52b26d621dea6096c',
+                p: false,
+              },
+              {
                 c: 'OpenShift. Kurs video. Zosta\u0144 administratorem system\u00F3w IT',
                 d: '2022-06-17',
                 i: 'x181cf530ba36acc06000a7120dbeed89fbcb5e9f7a26b6fe9c8db7958a993859',

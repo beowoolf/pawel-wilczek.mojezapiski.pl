@@ -156,6 +156,8 @@ export default {
         '/_ipx/f_webp/akademiadotnet/szkolablazora/B17FF3B5-994C-49BD-99A5-D1C7D6BE5EF8.png',
         '/akademiadotnet/szkolablazora/B17FF3B5-994C-49BD-99A5-D1C7D6BE5EF8.pdf',
         '/javaready/certyfikat-jjr.pdf',
+        '/_ipx/f_webp/videopoint/png/067caf5b14476aa52b26d621dea6096c.png',
+        '/videopoint/pdf/067caf5b14476aa52b26d621dea6096c.pdf',
         '/_ipx/f_webp/videopoint/png/x181cf530ba36acc06000a7120dbeed89fbcb5e9f7a26b6fe9c8db7958a993859.png',
         '/videopoint/pdf/x181cf530ba36acc06000a7120dbeed89fbcb5e9f7a26b6fe9c8db7958a993859.pdf',
         '/_ipx/f_webp/videopoint/png/xb8c66c25f58de3bc9f14ece1edbd9a30f1e766ff08b25d417cebfb6c2b561863.png',
