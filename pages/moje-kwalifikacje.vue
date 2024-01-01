@@ -281,6 +281,18 @@ export default {
             ],
           },
           {
+            link: '/devbites/',
+            name: 'devBites',
+            documents: [
+              {
+                c: 'Programowanie Obiektowe (Fundamenty)',
+                d: '2023-12-01',
+                i: '/devbites/ProgramowanieObiektoweFundamenty.pdf',
+                p: false,
+              },
+            ],
+          },
+          {
             link: '/videopoint/',
             name: 'Videopoint',
             documents: [
