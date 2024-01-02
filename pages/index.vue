@@ -5,6 +5,7 @@
       :class="$colorMode.preference == 'light' ? 'text-dark' : 'text-white'"
       page="https://github.com/beowoolf/"
       anchor="moje konto w serwisie GitHub"
+      target="_blank"
       rel="nofollow"
     >
       <nuxt-img
