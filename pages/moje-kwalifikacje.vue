@@ -669,8 +669,8 @@ export default {
       return url.endsWith('.pdf')
         ? 'pdf'
         : url.endsWith('.png')
-        ? 'png'
-        : 'both'
+          ? 'png'
+          : 'both'
     },
     openModal() {
       // eslint-disable-next-line no-undef
