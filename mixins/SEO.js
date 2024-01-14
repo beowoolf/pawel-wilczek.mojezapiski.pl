@@ -167,7 +167,7 @@ export default {
           hid: 'article:author',
           property: 'article:author',
           content: this.post.author,
-        }
+        },
       )
     if (['/'].includes(this.routePath)) {
       for (let index = 0; index < this.markdownImages.length; index++)

@@ -85,7 +85,7 @@
                 <span
                   @click="
                     setColorModeTheme(
-                      $colorMode.preference == 'dark' ? 'light' : 'dark'
+                      $colorMode.preference == 'dark' ? 'light' : 'dark',
                     )
                   "
                 >
