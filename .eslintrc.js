@@ -2,31 +2,17 @@ module.exports = {
   root: true,
   env: {
     browser: true,
+    'jest/globals': true,
     node: true,
   },
   parserOptions: {
     parser: '@babel/eslint-parser',
     requireConfigFile: false,
   },
-  extends: [
-    '@nuxtjs',
-    'prettier',
-    // 'prettier/vue',
-    // 'plugin:prettier/recommended',
-    'plugin:nuxt/recommended',
-  ],
-  plugins: [],
+  extends: ['@nuxtjs', 'plugin:nuxt/recommended', 'prettier'],
+  plugins: ['jest'],
   // add your custom rules here
   rules: {
     'no-console': 'off',
-    'nuxt/no-cjs-in-config': 'off',
   },
-  overrides: [
-    {
-      files: ['**/*.test.js', '**/*.spec.js', '**/*.spec.jsx'],
-      env: {
-        jest: true,
-      },
-    },
-  ],
 }
