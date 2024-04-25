@@ -42,9 +42,18 @@
           >Nuxt.js</ExternalLink
         ></strong
       >
-      i <strong>Spring Boot</strong>, ale nie wykluczam też
-      <strong>tworzenia mikroserwisów</strong> w innych językach programowania
-      dostosowanych do danej dziedziny, jak np.
+      i
+      <strong
+        ><ExternalLink
+          :class="$colorMode.preference == 'light' ? 'text-dark' : 'text-white'"
+          style="text-decoration: underline"
+          rel="follow"
+          page="https://cenbit.pl/"
+          anchor="mój projekt w którym wykorzystałem Spring Boot to projekt wyszukiwarki kursów wideo online Cenbit, której jestem założycielem"
+          >Spring Boot</ExternalLink
+        ></strong
+      >, ale nie wykluczam też <strong>tworzenia mikroserwisów</strong> w innych
+      językach programowania dostosowanych do danej dziedziny, jak np.
       <strong>Machine Learning</strong> w języku <strong>Python</strong>.
     </p>
     <p>
@@ -66,7 +75,16 @@
           >Vue.js</ExternalLink
         ></strong
       >, ale konsultuję również projekty napisane w
-      <strong>Spring Boot</strong>.
+      <strong
+        ><ExternalLink
+          :class="$colorMode.preference == 'light' ? 'text-dark' : 'text-white'"
+          style="text-decoration: underline"
+          rel="follow"
+          page="https://cenbit.pl/"
+          anchor="mój projekt w którym wykorzystałem Spring Boot to projekt wyszukiwarki kursów wideo online Cenbit, której jestem założycielem"
+          >Spring Boot</ExternalLink
+        ></strong
+      >.
     </p>
     <p>
       Chociaż z powołania jestem
@@ -142,7 +160,17 @@
     </p>
     <p>
       Moim głównym hobby jest pisanie aplikacji w
-      <strong>Spring Boot</strong> oraz w
+      <strong
+        ><ExternalLink
+          :class="$colorMode.preference == 'light' ? 'text-dark' : 'text-white'"
+          style="text-decoration: underline"
+          rel="follow"
+          page="https://cenbit.pl/"
+          anchor="mój projekt w którym wykorzystałem Spring Boot to projekt wyszukiwarki kursów wideo online Cenbit, której jestem założycielem"
+          >Spring Boot</ExternalLink
+        ></strong
+      >
+      oraz w
       <strong
         ><ExternalLink
           :class="$colorMode.preference == 'light' ? 'text-dark' : 'text-white'"
