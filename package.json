@@ -67,7 +67,7 @@
     "nuxt-compress": "^5.0.0",
     "postcss-html": "^1.7.0",
     "prettier": "^3.3.3",
-    "stylelint": "15.11.0",
+    "stylelint": "16.9.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-config-standard": "^35.0.0",
