@@ -39,7 +39,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
     "bootstrap": "^5.3.6",
-    "bootstrap-icons": "^1.12.1",
+    "bootstrap-icons": "^1.13.1",
     "cookie-universal-nuxt": "^2.2.2",
     "cross-env": "^7.0.3",
     "nuxt": "^2.18.1",
