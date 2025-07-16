@@ -42,7 +42,7 @@
     "bootstrap-icons": "^1.13.1",
     "cookie-universal-nuxt": "^2.2.2",
     "cross-env": "^7.0.3",
-    "nuxt": "^2.18.1",
+    "nuxt": "^4.0.0",
     "nuxt-jsonld": "^1.5.8"
   },
   "devDependencies": {
