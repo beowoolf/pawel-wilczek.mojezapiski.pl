@@ -41,7 +41,7 @@
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "cookie-universal-nuxt": "^2.2.2",
-    "cross-env": "^10.0.0",
+    "cross-env": "^10.1.0",
     "nuxt": "^2.18.1",
     "nuxt-jsonld": "^1.5.8"
   },
