@@ -9376,12 +9376,7 @@ js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
   integrity sha512-RjTcuD4xjtthQkaWH7dFlH85L+QaVtSoOyGdZ3g6HFhS9dFNDfLyqgm2NFe2X6cQpeFmt0452FJjFG5UameExg==
 
-js-tokens@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-9.0.0.tgz#0f893996d6f3ed46df7f0a3b12a03f5fd84223c1"
-  integrity sha512-WriZw1luRMlmV3LGJaR6QOJjWwgLUTf89OwT2lUOyjX2dJGBwgmIkbcz+7WFZjrZM635JOIR517++e/67CP9dQ==
-
-js-tokens@^9.0.1:
+js-tokens@^9.0.0, js-tokens@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-9.0.1.tgz#2ec43964658435296f6761b34e10671c2d9527f4"
   integrity sha512-mxa9E9ITFOt0ban3j6L5MpjwegGz6lBQmM1IJkWeBZGcMxto50+eWdjC/52xDbS2vy0k7vIMK0Fe2wfL9OQSpQ==
@@ -11564,10 +11559,10 @@ postcss-gap-properties@^5.0.1:
   resolved "https://registry.yarnpkg.com/postcss-gap-properties/-/postcss-gap-properties-5.0.1.tgz#887b64655f42370b43f0ab266cc6dbabf504d276"
   integrity sha512-k2z9Cnngc24c0KF4MtMuDdToROYqGMMUQGcE6V0odwjHyOHtaDBlLeRBV70y9/vF7KIbShrTRZ70JjsI1BZyWw==
 
-postcss-html@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-1.8.0.tgz#2ea1e9d6c53f04ea994135219d3bd8a9e380e13b"
-  integrity sha512-5mMeb1TgLWoRKxZ0Xh9RZDfwUUIqRrcxO2uXO+Ezl1N5lqpCiSU5Gk6+1kZediBfBHFtPCdopr2UZ2SgUsKcgQ==
+postcss-html@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-1.8.1.tgz#111eba62cfc293e38a3ffe64d4caf9c830ea2c42"
+  integrity sha512-OLF6P7qctfAWayOhLpcVnTGqVeJzu2W3WpIYelfz2+JV5oGxfkcEvweN9U4XpeqE0P98dcD9ssusGwlF0TK0uQ==
   dependencies:
     htmlparser2 "^8.0.0"
     js-tokens "^9.0.0"

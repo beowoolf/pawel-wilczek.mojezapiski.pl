@@ -65,7 +65,7 @@
     "jest-environment-jsdom": "^30.2.0",
     "lint-staged": "^16.2.7",
     "nuxt-compress": "^5.0.0",
-    "postcss-html": "^1.8.0",
+    "postcss-html": "^1.8.1",
     "prettier": "^3.7.4",
     "stylelint": "15.11.0",
     "stylelint-config-prettier": "^9.0.4",
