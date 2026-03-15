@@ -43,7 +43,7 @@
     "cookie-universal-nuxt": "^2.2.2",
     "cross-env": "^10.1.0",
     "nuxt": "^2.18.1",
-    "nuxt-jsonld": "^1.5.8"
+    "nuxt-jsonld": "^2.2.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.6",
