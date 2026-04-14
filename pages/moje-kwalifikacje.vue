@@ -673,7 +673,6 @@ export default {
           : 'both'
     },
     openModal() {
-      // eslint-disable-next-line no-undef
       const myModal = new bootstrap.Modal(this.$refs.exampleModalRef, {
         keyboard: false,
       })
