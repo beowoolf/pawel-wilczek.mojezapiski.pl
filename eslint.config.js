@@ -2,7 +2,7 @@ const pluginVue = require('eslint-plugin-vue')
 const pluginNuxt = require('eslint-plugin-nuxt')
 const pluginJest = require('eslint-plugin-jest')
 const prettierConfig = require('eslint-config-prettier')
-const babelParser = require('@babel/eslint-parser')
+const babelParser = require('@babel/eslint-parser').default
 const vueParser = require('vue-eslint-parser')
 const globals = require('globals')
 
@@ -34,7 +34,7 @@ module.exports = [
     languageOptions: {
       parser: vueParser,
       parserOptions: {
-        parser: babelParser,
+        parser: '@babel/eslint-parser',
         ecmaVersion: 'latest',
         sourceType: 'module',
         requireConfigFile: false,
