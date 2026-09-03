@@ -65,7 +65,7 @@
     "eslint-plugin-vue": "^10.10.0",
     "globals": "^17.11.0",
     "husky": "^9.1.7",
-    "jest": "^30.4.2",
+    "jest": "^30.5.0",
     "jest-environment-jsdom": "^30.5.0",
     "lint-staged": "^17.4.1",
     "nuxt-compress": "^5.0.0",
