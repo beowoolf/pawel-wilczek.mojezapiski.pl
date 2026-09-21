@@ -70,7 +70,7 @@
     "lint-staged": "^17.5.1",
     "nuxt-compress": "^5.0.0",
     "postcss-html": "^1.8.1",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.8",
     "stylelint": "15.11.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-recommended-vue": "^1.6.1",
