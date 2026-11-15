@@ -1,0 +1,36 @@
+version: 2
+updates:
+  # Fetch and update latest `npm` packages
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: daily
+      time: '00:00'
+    open-pull-requests-limit: 10
+    reviewers:
+      - beowoolf
+    assignees:
+      - beowoolf
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
+    # Nuxt >=4.5 requires Rolldown native bindings; MyDevil FreeBSD lacks libutil.so.10.
+    ignore:
+      - dependency-name: nuxt
+        versions: ['>=4.5.0']
+  # Fetch and update latest `github-actions` pkgs
+  - package-ecosystem: github-actions
+    directory: '/'
+    schedule:
+      interval: daily
+      time: '00:00'
+    open-pull-requests-limit: 10
+    reviewers:
+      - beowoolf
+    assignees:
+      - beowoolf
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
