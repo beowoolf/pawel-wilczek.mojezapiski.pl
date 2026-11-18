@@ -36,7 +36,7 @@
     "@nuxtjs/robots": "^6.2.4",
     "@nuxtjs/sitemap": "^8.6.2",
     "@vite-pwa/nuxt": "^1.1.1",
-    "better-sqlite3": "^13.0.3",
+    "better-sqlite3": "^13.2.0",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.2",
     "nuxt": "4.4.8",
