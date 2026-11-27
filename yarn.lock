@@ -9276,10 +9276,10 @@ postcss-discard-overridden@^8.0.4:
   resolved "https://registry.yarnpkg.com/postcss-discard-overridden/-/postcss-discard-overridden-8.0.4.tgz#3d2afaaf08b8c7a2db083f835e5996dc43860bbe"
   integrity sha512-NqupxmnSSfWPJJDYbQk1qXWRwr+lw4Kyp/LSOjqwTpy/vSwo34EVXYKywgemSWpgh39P7Cs/G+tqynbRlXoJhw==
 
-postcss-html@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-2.0.0.tgz#47555530c6d871cf5a6347387f717d7bfaf2ffa9"
-  integrity sha512-f2Rvw5FCollEfVj3wfN7JdQb7n2rNIthW+epw2EByio7M6P7RH0BTj8a/ODHrUXd0cmO7ychb6YniymV93182Q==
+postcss-html@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-2.0.1.tgz#e1ed92d18b040962aed662f48d5685c9c3d32a6b"
+  integrity sha512-FqutI3u6D7j28ZgviEFjGCbId174THaVxFAMe/yd6Y/+BSQidYYh2nRCxFk8btwEV64f3TvfNz7ureGnkzqtmA==
   dependencies:
     htmlparser2 "^9.1.0"
     js-tokens "^9.0.0"
